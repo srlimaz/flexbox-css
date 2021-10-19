@@ -32,3 +32,12 @@ São os elementos filhos diretos do flex container. E também podem se tornar Fl
 - flex: abreviação para as 3 propriedades acima.
 - order: relacionado a ordem de distribuição e dos itens.
 - align-self: define um alinhamento especifico desse container.
+
+**DISPLAY:FLEX;** - Torna a tag um elemento do tipo flex container, e assim automaticamente todos os seus filhos diretos desta tag, tornam-se em flex items. Consegue aplicar em qualquer tag (div, h1,h2...etc).
+
+**FLEX DIRECTION** - É a propriedade que estabelece o eixo principal do container, definindo assim a direção que os flex items são colocados no flex container.
+
+- row: à direção do texto, esquerda para direita.
+- row-reverse: sentido oposto à direção do texto.
+- column: ordenação de cima para baixo, em coluna unica.
+- column-reverse: ordenação inversa, de baixo para cima.
