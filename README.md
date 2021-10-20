@@ -16,7 +16,7 @@ Pode ser aplicada em qualquer tag.
 - flex-direction: vai fazer o direcionamento desses itens, seja em linha ou em coluna.
 - flex-wrap: quebra de linha ou não.
 - flex-flow: é uma abreviação para o direction e o wrap.
-- justify-content: alinha seu conteudo de acordo com o seu container de acordo com a sua direção.
+- justify-content: alinha seu conteúdo de acordo com o seu container de acordo com a sua direção.
 - align-items: irá alinhar os itens de acordo com o eixo do container.
 - align-content: irá alinhar as linhas do container.
 
@@ -39,5 +39,11 @@ São os elementos filhos diretos do flex container. E também podem se tornar Fl
 
 - row: à direção do texto, esquerda para direita.
 - row-reverse: sentido oposto à direção do texto.
-- column: ordenação de cima para baixo, em coluna unica.
+- column: ordenação de cima para baixo, em coluna única.
 - column-reverse: ordenação inversa, de baixo para cima.
+
+**FLEX-WRAP** - É a propriedade que define se os itens devem ou não quebrar a linha. Por padrão eles não quebram linhas, isso faz com que os flex itens sejam compactados além do limite do conteúdo.
+
+- nowrap: é o padrão, não permite a quebra de linha.
+- wrap: permite a quebra de linha assim que um dos flex itens não puder mais ser compactado.
+- wrap-reverse: permite a quebra de linha assim que um dos flex itens não puder mais ser compactado, porém na direção contrária da linha, acima.
