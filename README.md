@@ -51,3 +51,13 @@ São os elementos filhos diretos do flex container. E também podem se tornar Fl
 **FLEX-FLOW** - É um atalho para as propriedades _flex-direction_ e _flex-wrap_.
 
 Porém seu uso não é tão comum, visto que, quando mudamos o flex-direction para column, mantemos o padrão do flex-wrap que é nowrap.
+
+**JUSTIFY-CONTENT** - Essa propriedade vai se encarregar de alinhar os itens dentro do container de acordo com a direção pretendida e tratar da distribuição de espaçamento entre eles.
+
+OBS: caso seus itens esteja ocupando 100% de todo o container, ela não se aplica.
+
+- flex-start: inicio do container.
+- flex-end: final do container.
+- center: ao centro do container.
+- space-between: cria um espaçamento igual entre os elementos.
+- space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final.
