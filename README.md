@@ -87,3 +87,13 @@ Permite o alinhamento central no eixo vertical.
 - flex-end: alinhamento dos itens no final.
 - space-between: cria um espaçamento igual entre os elementos.
 - space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final.
+
+**FLEX-GROW** - Define a proporcionalidade de crescimentos dos itens, respeitando o tamanho de seus conteúdos internos.
+
+OBS: não irá funcionar caso tenhamos adicionado _justify-content_ ao nosso flex container.
+
+**FLEX-BASIS** - É a propriedade que estabelece o tamanho inicial do item antes das distribuição de espaço restante dentro dele, usando como base o conteúdo interno disposto.
+
+- auto: caso o item não tenha tamanho, este será proporcional ao conteúdo do item.
+- px, %, em, ...: são valores exatos previamente definidos.
+- 0 (zero): terá relação com a definição do flex-grow.
