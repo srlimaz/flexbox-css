@@ -101,3 +101,12 @@ OBS: não irá funcionar caso tenhamos adicionado _justify-content_ ao nosso fle
 **FLEX-SHRINK** - É a propriedade que estabelece a capacidade de redução ou compressão do tamanho de um item.
 
 **FLEX** - Esta propriedade é um atalho ou abreviação da escrita para as propriedades: grow, shrink e basis.
+
+**ORDER** - Lida diretamente com a ordenação com os items.
+
+**ALIGN-SELF** - É a propriedade que estabelece o alinhamento de modo individual sobre um determinado item.
+
+- auto: valor padrão, irá respeitar a definição de align-items do container.
+- flex-start: ao inicio do container.
+- flex-end: ao final do container.
+- center: relativo ao centro de acordo com o eixo.
