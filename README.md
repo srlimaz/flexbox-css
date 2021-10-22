@@ -97,3 +97,7 @@ OBS: não irá funcionar caso tenhamos adicionado _justify-content_ ao nosso fle
 - auto: caso o item não tenha tamanho, este será proporcional ao conteúdo do item.
 - px, %, em, ...: são valores exatos previamente definidos.
 - 0 (zero): terá relação com a definição do flex-grow.
+
+**FLEX-SHRINK** - É a propriedade que estabelece a capacidade de redução ou compressão do tamanho de um item.
+
+**FLEX** - Esta propriedade é um atalho ou abreviação da escrita para as propriedades: grow, shrink e basis.
